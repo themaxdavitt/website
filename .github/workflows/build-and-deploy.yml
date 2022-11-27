@@ -40,4 +40,4 @@ jobs:
       - name: Deploy
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        run: rsync -e "ssh -o StrictHostKeyChecking=no" -avz public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/public/max.davitt.me/
+        run: rsync -e "ssh -o StrictHostKeyChecking=no -o LogLevel=ERROR" -avz public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/public/max.davitt.me/
