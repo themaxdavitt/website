@@ -39,7 +39,7 @@ It's probably not the cleanest way to do it but here's how I accomplished that:
 (
     echo :memory:
     printf -- "-cmd\n%s\n" "${cmds[@]}"
-    echo $query
+    echo "$query"
 ) | xargs -d "\n" sqlite3
 ```
 
