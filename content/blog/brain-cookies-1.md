@@ -1,4 +1,5 @@
 +++
+layout = "blog"
 title = "Brain cookies #1"
 date = "2022-12-20"
 tags = [

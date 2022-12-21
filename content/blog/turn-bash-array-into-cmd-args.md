@@ -1,4 +1,5 @@
 +++
+layout = "blog"
 title = "TIL: how to turn a Bash array into command arguments"
 date = "2022-12-03"
 tags = [

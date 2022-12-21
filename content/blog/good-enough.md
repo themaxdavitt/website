@@ -1,4 +1,5 @@
 +++
+layout = "blog"
 title = "Good enough!"
 date = "2022-11-27"
 tags = [

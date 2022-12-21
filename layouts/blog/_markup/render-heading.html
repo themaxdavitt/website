@@ -1,0 +1,5 @@
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">
+    {{ .Text | safeHTML }}
+    {{- /* todo: evaluate accessibility impact of this */ -}}
+    <a style="float: right; text-decoration: none" href="#{{ .Anchor | safeURL }}">🔗</a> 
+</h{{ .Level }}>

@@ -1,4 +1,5 @@
 +++
+layout = "blog"
 title = "How I port forward through WireGuard using firewalld"
 date = "2022-12-04"
 tags = [
