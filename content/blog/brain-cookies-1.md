@@ -10,7 +10,7 @@ At any given point in time I'll have lots of _stuff_ running through my brain an
 
 <!--more-->
 
-These are in no particular order and they're definitely not fully thought through; all I did was clean them up, add some context, and do a few minutes of research. They are a bit rambly too. If you're looking for more lists like this, check out [Samuel Squire's "ideas" repos](https://github.com/samsquire/ideas) and a ["Software I want" list](https://github.com/themaxdavitt/software-i-want) I made a while ago. Enjoy, and if you have any thoughts about these, my contact info is on the home page!
+These are in no particular order and they're definitely not fully thought through; all I did was clean them up, add some context, and do a few minutes of research. They are a bit rambly too. If you're looking for more lists like this, check out [Samuel Squire's "ideas" repos](https://github.com/samsquire/ideas) and a ["Software I want" list](https://github.com/themaxdavitt/software-i-want) I made a while ago. Enjoy, and if you have any thoughts about these, [share them on the fediverse](https://fosstodon.org/@themaxdavitt/109549047400049154)!
 
 ## Using Datasette for habit tracking
 
