@@ -1,5 +1,5 @@
 <h{{ .Level }} id="{{ .Anchor | safeURL }}">
     {{ .Text | safeHTML }}
     {{- /* todo: evaluate accessibility impact of this */ -}}
-    <a style="float: right; text-decoration: none" href="#{{ .Anchor | safeURL }}">🔗</a> 
+    <a class="heading-link" title="Direct link to heading" href="#{{ .Anchor | safeURL }}">🔗</a> 
 </h{{ .Level }}>
