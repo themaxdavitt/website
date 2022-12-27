@@ -9,7 +9,7 @@ tags = [
 ]
 +++
 
-Today I learned how to do math with BSD's `date` command (on macOS) so I could set start and end dates for budget forecasts in [my accounting tool](https://hledger.org) based on when I get paid. I'm going to walk you through the script I wrote since I think it serves as a good example on how to use `date`'s adjustment option (`-v`) to do that.
+Today I learned how to do math with BSD's `date` command (on macOS) so I could set start and end dates for budget forecasts in [my accounting tool of choice](https://hledger.org) based on when I get paid. I'm going to walk you through the script I wrote since I think it serves as a good example on how to use `date`'s adjustment option (`-v`) to do that.
 
 <!--more-->
 
