@@ -46,7 +46,7 @@ OUTPUT_FORMAT="%Y-%m-%d"
 
 Here's the trick: we do the math using [Unix timestamps](https://en.wikipedia.org/wiki/Unix_time) and "adjust" the dates based on our calculations.[^1]
 
-[^1]: Credit for this idea goes to [Inian on Stack Overflow](https://stackoverflow.com/a/47720209).
+[^1]: Credit for this idea goes to [Inian on Stack Overflow](https://stackoverflow.com/questions/47719681/calculate-date-time-difference-in-bash-on-macos#47720209).
 
 So let's convert our example payday and the current time to Unix timestamps:
 
