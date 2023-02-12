@@ -13,7 +13,7 @@ At any given point in time I'll have lots of _stuff_ running through my brain an
 
 These are in no particular order and they're definitely not fully thought through; all I did was clean them up, add some context, and do a few minutes of research. They are a bit rambly too. If you're looking for more lists like this, check out [Samuel Squire's "ideas" repos](https://github.com/samsquire/ideas) and a ["Software I want" list](https://github.com/themaxdavitt/software-i-want) I made a while ago. Enjoy, and if you have any thoughts about these, [share them on the fediverse](https://fosstodon.org/@themaxdavitt/109549047400049154)!
 
-## Using Datasette for habit tracking
+## Using Datasette for habit tracking {#using-datasette-for-habit-tracking}
 
 [Datasette](https://datasette.io) is pretty cool. I've been interested in open data portals and data exploration in general for a long time, and while I've known about Datasette for a little while too, I hadn't figured out exactly what I want to use it for yet.
 
@@ -23,7 +23,7 @@ I would also like to start tracking my physical activity in the same way though.
 
 [^1]: Yes, [my last TIL](https://max.davitt.me/blog/turn-bash-array-into-cmd-args/) was related to this, but don't worry, I haven't really worked on it much since then.
 
-## Industry-specific marketing can be outsourced
+## Industry-specific marketing can be outsourced {#industry-specific-marketing-can-be-outsourced}
 
 I got my wisdom teeth removed recently and leading up to that I got pretty familiar with my oral surgeon's website. When I mentioned how detailed it was to him he told me that he was paying some [some company](https://www.pbhs.com) to manage the content on it for him.
 
@@ -31,7 +31,7 @@ I was vaguely aware of "digital presence" offerings but I hadn't realized how pr
 
 [^2]: Also, it's not just website hosting: I found [a compliance/cybersecurity firm](https://complyauto.com) targeted towards dealerships...
 
-## Corporate redesign guarantors
+## Corporate redesign guarantors {#corporate-redesign-guarantors}
 
 <!-- todo: link Syd's website when it's back up -->
 
@@ -41,7 +41,7 @@ So here's the pitch: stationary companies should work with design studios to let
 
 Full disclosure: I have no experience with or real knowledge about that industry, so I'm probably either misunderstanding the relationship between designers and clients and/or reinventing a process that already exists. I just like fun branding. :)
 
-## Accidental bookmarking tools
+## Accidental bookmarking tools {#accidental-bookmarking-tools}
 
 I was in the process of going through the list of accounts I'm following on Twitter for an eventual move to Mastodon when I realized that I was kinda using it as a really bad bookmarking tool. All the quirky little startups I'd followed as I discovered them rarely ever ended up on my timeline because they were competing with like 400 other accounts, and so I had forgotten about many of them. Same with a lot of cool concepts I'd favorited from artists and designers I followed.
 
@@ -49,7 +49,7 @@ I'm not sure what to do about that. I have a [Pinboard](https://pinboard.in) acc
 
 Speaking of bookmarks, I've noticed that a handful of the TikToks I bookmarked have been deleted. While it's nice that it shows me that they were deleted, it concerns me that the deletions even happened, because I bookmarked them so I could refer back to them. Maybe I need to set up something like [ArchiveBox](https://archivebox.io), and then refer to those archives on are.na? Hmm...
 
-## Taking advantage of movie theater schedules
+## Taking advantage of movie theater schedules {#taking-advantage-of-movie-theater-schedules}
 
 Movie theaters typically show a lot of movies at a lot of different times throughout the day, and all the movie theaters I've gone to check your ticket at the front of the building and expect you to find your way to where they're showing whatever movie your ticket was for.
 
