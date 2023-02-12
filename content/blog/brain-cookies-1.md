@@ -25,11 +25,11 @@ I would also like to start tracking my physical activity in the same way though.
 
 ## Industry-specific marketing can be outsourced {#industry-specific-marketing-can-be-outsourced}
 
-I got my wisdom teeth removed recently and leading up to that I got pretty familiar with my oral surgeon's website. When I mentioned how detailed it was to him he told me that he was paying some [some company](https://www.pbhs.com) to manage the content on it for him.
+I got my wisdom teeth removed recently and leading up to that I got pretty familiar with my oral surgeon's website. When I mentioned how detailed it was to him he told me that he was paying some [some company](https://web.archive.org/web/20221220/https://www.pbhs.com) to manage the content on it for him.
 
-I was vaguely aware of "digital presence" offerings but I hadn't realized how prevalent they were until now. They're used by [CPAs](https://www.cpasitesolutions.com), [townships](https://www.townweb.com), [staffing agencies](https://www.haleymarketing.com/services/websites/), [assisted living facilities](https://www.ltcwebsitesolutions.com), [car dealerships](https://www.sincrodigital.com), and probably every other type of business. A little bit of [WordPress](https://wordpress.org) goes a long way I guess.[^2]
+I was vaguely aware of "digital presence" offerings but I hadn't realized how prevalent they were until now. They're used by [CPAs](https://web.archive.org/web/20221220/https://www.cpasitesolutions.com/), [townships](https://web.archive.org/web/20230127045230/https://www.townweb.com/), [staffing agencies](https://web.archive.org/web/20221220/https://www.haleymarketing.com/services/websites/), [assisted living facilities](https://web.archive.org/web/20221220/https://www.ltcwebsitesolutions.com), [car dealerships](https://web.archive.org/web/20221220/https://www.sincrodigital.com), and probably every other type of business. A little bit of [WordPress](https://wordpress.org) goes a long way I guess.[^2]
 
-[^2]: Also, it's not just website hosting: I found [a compliance/cybersecurity firm](https://complyauto.com) targeted towards dealerships...
+[^2]: Also, it's not just website hosting: I found [a compliance/cybersecurity firm](https://web.archive.org/web/20221220/https://complyauto.com) targeted towards dealerships... (the archived page looks kinda broken, sorry)
 
 ## Corporate redesign guarantors {#corporate-redesign-guarantors}
 
@@ -56,3 +56,7 @@ Movie theaters typically show a lot of movies at a lot of different times throug
 So... I wonder if there's a website that lets you visualize how showtimes are staggered at your local theater to plan out what movies you can see right after your first one ends (without having to buy an additional ticket). I don't go to the movies very often, and I don't think I'd ever do this for moral reasons anyways, but I'd be surprised if this didn't exist. It could help people with less money make sure they were getting the most out of their visit.
 
 I know employees can be diligent and try to remember faces but I'm curious what movie theaters do to combat this at the scheduling level. I'm sure people have been doing this manually for decades so I'm doubtful that they haven't at least attempted to address it. 
+
+---
+
+**EDIT (2023-02-12):** I didn't think about the company links in [the industry-specific marketing section](#industry-specific-marketing-can-be-outsourced) as [backlinks](https://en.wikipedia.org/wiki/Backlink), no free SEO here! All company links in that section now point to archived pages on the [Wayback Machine](https://archive.org/web/).
