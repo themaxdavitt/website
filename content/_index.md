@@ -1,6 +1,6 @@
 # Hello world!
 
-I'm Max Davitt. I'm 22 years old, use he/him pronouns, and live near Cleveland, OH, USA. I've been interested in software development for a large chunk of my life and it's what keeps me employed. Outside of that I also enjoy learning about business, journalism, and media production.
+I'm Max Davitt. I'm 23 years old, use he/him pronouns, and live near Akron, OH, USA. I've been interested in software development for a large chunk of my life and it's what keeps me employed. Outside of that I also enjoy learning about business, journalism, media production, and more.
 
 This is my little website. It's [open-source](https://github.com/themaxdavitt/website) and built using [Hugo](https://gohugo.io/) with the [Bear Blog](https://themes.gohugo.io/themes/hugo-bearblog/) theme. The "Home" page is what you're currently reading, the "Now" page is basically "what I'm up to these days", and the "Blog" is where I put all the _stuff_ that I talk about here. :)
 
