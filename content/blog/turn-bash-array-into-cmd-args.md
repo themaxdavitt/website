@@ -4,8 +4,6 @@ title = "TIL: how to turn a Bash array into command arguments"
 date = "2022-12-03"
 tags = [
   "til",
-  "sqlite",
-  "shell"
 ]
 description = "Just a quick \"today I learned\" sharing how to turn a Bash array into command arguments with GNU xargs using SQLite as an example."
 +++

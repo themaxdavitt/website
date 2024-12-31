@@ -5,11 +5,13 @@ theme = "hugo-bearblog"
 title = "Max's Stuff"
 author = "Max Davitt"
 languageCode = "en-US"
-
-enableRobotsTXT = true
+timeZone = "America/New_York"
 
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
+capitalizeListTitles = false
+
+enableGitInfo = true
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
@@ -31,11 +33,30 @@ ignoreErrors = ["error-disable-taxonomy"]
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
   dateFormat = "2006-01-02"
 
-[markup.goldmark.renderer]
-  unsafe = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      strikethrough = false
+      [markup.goldmark.extensions.extras]
+        [markup.goldmark.extensions.extras.delete]
+          enable = true
+        [markup.goldmark.extensions.extras.insert]
+          enable = true
+        [markup.goldmark.extensions.extras.mark]
+          enable = true
+    [markup.goldmark.parser]
+      autoHeadingID = false
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [outputs]
   home = ["HTML"]
 
 [minify]
   minifyOutput = true
+
+[frontmatter]
+  lastmod = [':git', ':fileModTime', ':default']
+
+[permalinks]
+  tags = "/blog/tags/:slug/"

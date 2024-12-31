@@ -1,0 +1,15 @@
+{{- /* theme always included blog link at the end */ -}}
+{{ $path := .RelPermalink }}
+{{ if .IsHome }}
+<a href="{{ "" | relURL }}"><b>Home</b></a>
+{{ else }}
+<a href="{{ "" | relURL }}">Home</a>
+{{ end }}
+
+{{ range .Site.Menus.main }}
+{{ if hasPrefix $path .Page.Path }}
+<a href="{{ .URL }}"><b>{{ .Name }}</b></a>
+{{ else }}
+<a href="{{ .URL }}">{{ .Name }}</a>
+{{ end }}
+{{ end }}

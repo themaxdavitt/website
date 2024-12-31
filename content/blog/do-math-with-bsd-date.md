@@ -4,8 +4,6 @@ title = "TIL: how to do math with BSD's date command on macOS"
 date = "2022-12-26"
 tags = [
   "til",
-  "ledger",
-  "shell"
 ]
 +++
 

@@ -5,7 +5,6 @@ date = "2022-11-27"
 tags = [
   "personal",
   "meta",
-  "webdev"
 ]
 +++
 

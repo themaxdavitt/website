@@ -3,7 +3,7 @@ layout = "blog"
 title = "Brain cookies #1"
 date = "2022-12-20"
 tags = [
-  "braincookies"
+  "braincookies",
 ]
 +++
 
@@ -19,9 +19,9 @@ These are in no particular order and they're definitely not fully thought throug
 
 Over the last few months I've been practicing [plain text accounting](https://plaintextaccounting.org) using [hledger](https://hledger.org). It's really nice and has completely changed my relationship with money for the better. Because I store my "journal" files in a private GitHub repo I've been able to use the contribution graph on [my profile](https://github.com/themaxdavitt) as a habit tracker. Tracking it like that wasn't intentional and it has the potential to be inaccurate, but currently I'm not doing open-source until I figure the legal stuff out with my employer, so it basically only tracks accounting activity for now anyways. 
 
-I would also like to start tracking my physical activity in the same way though. I made a [database schema](https://gist.github.com/themaxdavitt/563e349613cc41a0456d38a1215e5ec0) outlining everything I'd want to collect[^1] and eventually I would like some way to compare my stats to the table produced by the [NIDDK's Body Weight Planner tool](https://www.niddk.nih.gov/bwp). I'd like to figure out if/how I can solve this and improve my hledger habit tracking situation with Datasette so I don't have to develop my own solution (I can already see where I'm heading in the [Max Project Pipeline]({{< ref "good-enough#fn:4" >}})).
+I would also like to start tracking my physical activity in the same way though. I made a [database schema](https://gist.github.com/themaxdavitt/563e349613cc41a0456d38a1215e5ec0) outlining everything I'd want to collect[^1] and eventually I would like some way to compare my stats to the table produced by the [NIDDK's Body Weight Planner tool](https://www.niddk.nih.gov/bwp). I'd like to figure out if/how I can solve this and improve my hledger habit tracking situation with Datasette so I don't have to develop my own solution (I can already see where I'm heading in the [Max Project Pipeline]({{< relref "good-enough#fn:4" >}})).
 
-[^1]: Yes, [my last TIL]({{< ref "turn-bash-array-into-cmd-args" >}}) was related to this, but don't worry, I haven't really worked on it much since then.
+[^1]: Yes, [my last TIL]({{< relref "turn-bash-array-into-cmd-args" >}}) was related to this, but don't worry, I haven't really worked on it much since then.
 
 ## Industry-specific marketing can be outsourced {#industry-specific-marketing-can-be-outsourced}
 
@@ -33,9 +33,7 @@ I was vaguely aware of "digital presence" offerings but I hadn't realized how pr
 
 ## Corporate redesign guarantors {#corporate-redesign-guarantors}
 
-<!-- todo: link Syd's website when it's back up -->
-
-A friend of mine was doing brand redesigns for a class she's taking and had to mock up things like letterheads, envelopes, and business cards. In theory there's a lot that can be customized about those, but in reality I'm not sure how many companies feel comfortable with large customizations. Like, if you suggest that they use envelopes folded a certain way or business cards with a certain material, how are they supposed to feel confident they can reliably get those for years to come?
+A [friend of mine](https://www.sydmeg.com/) was doing brand redesigns for a class she's taking and had to mock up things like letterheads, envelopes, and business cards. In theory there's a lot that can be customized about those, but in reality I'm not sure how many companies feel comfortable with large customizations. Like, if you suggest that they use envelopes folded a certain way or business cards with a certain material, how are they supposed to feel confident they can reliably get those for years to come?
 
 So here's the pitch: stationary companies should work with design studios to let them contractually guarantee to their clients that they will have a supplier for their fun little designs for a minimum quantity or length of time. This guarantees to clients that their redesign is achievable (at least the stationary part) and helps design studios feel confident that their clients will actually follow their redesign long-term.
 

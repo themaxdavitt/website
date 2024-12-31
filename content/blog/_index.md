@@ -1,4 +1,7 @@
 +++
 title = "Blog"
-description = "This is where I write stuff."
+menu = "main"
+weight = 30
 +++
+
+This is where I write stuff.

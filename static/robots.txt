@@ -1,0 +1,3 @@
+User-Agent: *
+Sitemap: https://max.davitt.me/sitemap.xml
+Disallow: /sandbox/
