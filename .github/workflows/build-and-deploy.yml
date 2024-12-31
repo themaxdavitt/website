@@ -37,7 +37,10 @@ jobs:
           hugo version
 
       - name: Build
-        run: hugo
+        run: |
+          # https://github.com/gohugoio/hugo/issues/9810#issuecomment-1107519804
+          git config --global core.quotepath false
+          hugo
 
       - name: Deploy
         env:
