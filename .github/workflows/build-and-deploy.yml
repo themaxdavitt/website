@@ -11,6 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
+          fetch-depth: 0
           submodules: true
 
       - name: Setup SSH key
@@ -37,10 +38,7 @@ jobs:
           hugo version
 
       - name: Build
-        run: |
-          # https://github.com/gohugoio/hugo/issues/9810#issuecomment-1107519804
-          git config --global core.quotepath false
-          hugo
+        run: hugo
 
       - name: Deploy
         env:
