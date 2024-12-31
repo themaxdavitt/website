@@ -56,7 +56,7 @@ enableGitInfo = true
   minifyOutput = true
 
 [frontmatter]
-  lastmod = [':git', ':fileModTime', ':default']
+  lastmod = [':git']
 
 [permalinks]
   tags = "/blog/tags/:slug/"
