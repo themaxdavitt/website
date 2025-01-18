@@ -5,8 +5,8 @@ title = "Diet v1"
 **Start date:** 2024-11-22<br>
 **Start weight:** 246.1 lbs (111.63 kg)
 
-**Latest update:** 2024-12-31<br>
-**Latest weight:** 233.5 lbs (105.91 kg)
+**Latest update:** 2025-01-17<br>
+**Latest weight:** 230.8 lbs (104.69 kg)
 
 I've been overweight for the vast majority of my life and this is my first real attempt at rectifying that. I don't have a specific end goal in mind - I was mainly interested in just establishing being thoughtful about what I eat as a habit - but, in combination with my fitness "journey", I'd like to get to around 15% body fat (my scale said I was at ~40% when I started). I know, that's pretty ambitious, but I think I can do it. :)
 
