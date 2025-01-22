@@ -20,6 +20,6 @@ I don't really understand how this is still a problem in `$CURRENT_YEAR`, but it
 ffplay -nodisp -f lavfi -i anullsrc=r=44100:cl=stereo
 ```
 
-I'll be honest, ChatGPT helped me out with this. My initial solution was to use [`afplay`](https://ss64.com/mac/afplay.html) on macOS but I couldn't come up with a good one-liner I liked. Its explanation is that this plays an endless silent audio stream ([`anullsrc`](https://ffmpeg.org/ffmpeg-filters.html#toc-anullsrc) via [`lavfi`](https://ffmpeg.org/ffmpeg-devices.html#toc-lavfi)) with no display output ([`-nodisp`](https://ffmpeg.org/ffplay.html#toc-Main-options)) to prevent the disconnects from happening, and it's been working for me for months.
+I'll be honest, ChatGPT helped me out with this. My initial solution was to use [`afplay`](https://ss64.com/mac/afplay.html) on macOS but I couldn't come up with a good one-liner I liked. Its explanation is that this plays an endless silent audio stream ([`anullsrc`](https://ffmpeg.org/ffmpeg-filters.html#anullsrc) via [`lavfi`](https://ffmpeg.org/ffmpeg-devices.html#lavfi)) with no display output ([`-nodisp`](https://ffmpeg.org/ffplay.html#Main-options)) to prevent the disconnects from happening, and it's been working for me for months.
 
 Hope this helps!
