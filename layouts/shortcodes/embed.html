@@ -1,0 +1,8 @@
+{{- /* https://marcusolsson.dev/how-to-include-code-examples-from-file-with-hugo/ */ -}}
+{{ $language := .Get "language" }}
+{{ $source := .Get "source" }}
+{{ $options := .Get "options" }}
+
+{{ with .Page.Resources.GetMatch $source }}
+  {{ highlight (trim .Content "\n\r") $language $options }}
+{{ end }}
