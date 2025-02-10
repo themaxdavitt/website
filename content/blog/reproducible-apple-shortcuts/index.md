@@ -71,7 +71,7 @@ Anyways, great, now I have these text files I can do whatever with. Apparently s
 
 This is _supposed_ to be pretty easy. You can't import `.plist` files in the GUI, but you're _supposed_ to be able to pass one of these files to a `shortcuts` subcommand and it will do the same signature magic that the GUI does and spit back out a `.shortcut` file you can use.
 
-```
+{{< highlight plaintext "hl_Lines=1" >}}
 $ shortcuts sign --help
 
 OVERVIEW: Sign a shortcut file.
@@ -87,7 +87,7 @@ OPTIONS:
   -i, --input <input>     The shortcut file to sign.
   -o, --output <output>   Output path for the signed shortcut file.
   -h, --help              Show help information.
-```
+{{< /highlight >}}
 
 But apparently [it's been broken for a while](https://github.com/electrikmilk/cherri/issues/49), so people are instead using a third-party server running a version of macOS which it isn't broken on to get shortcuts signed:
 
