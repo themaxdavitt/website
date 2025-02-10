@@ -48,6 +48,8 @@ enableGitInfo = true
       autoHeadingID = false
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    noClasses = false
 
 [outputs]
   home = ["HTML"]
