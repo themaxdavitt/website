@@ -91,7 +91,7 @@ OPTIONS:
 
 But apparently [it's been broken for a while](https://github.com/electrikmilk/cherri/issues/49), so people are instead using a third-party server running a version of macOS which it isn't broken on to get shortcuts signed:
 
-```
+```bash
 curl --request POST "https://hubsign.routinehub.services/sign" \
   --header "Content-Type: application/x-plist" \
   --data-binary "@set-color-filters.plist" \
