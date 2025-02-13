@@ -1,0 +1,22 @@
+{{ $file := .Get "source"  }}
+
+{{ with .Page.Resources.Get $file }}
+  {{ with . | transform.Unmarshal }}
+    {{ with index . "data" }}
+      {{ with index . 0 }}
+        <p>
+          {{ $t := time.AsTime (index . "date") }}
+          <b>Start date:</b> {{ $t.Format "2006-01-02" }}<br>
+          <b>Start weight:</b> {{ index . "scale_weight_lb" }} lbs ({{ index . "scale_weight_kg" }} kg)
+        </p>
+      {{ end }}
+      {{ range last 1 . }}
+        <p>
+          {{ $t := time.AsTime (index . "date") }}
+          <b>Latest update:</b> {{ $t.Format "2006-01-02" }}<br>
+          <b>Latest weight:</b> {{ index . "scale_weight_lb" }} lbs ({{ index . "scale_weight_kg" }} kg)
+        </p>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}

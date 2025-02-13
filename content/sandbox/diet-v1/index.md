@@ -2,11 +2,20 @@
 title = "Diet v1"
 +++
 
-**Start date:** 2024-11-22<br>
-**Start weight:** 246.1 lbs (111.63 kg)
+{{< diet-v1-stats source="data.json" >}}
 
-**Latest update:** 2025-02-10<br>
-**Latest weight:** 224.4 lbs (101.79 kg)
+{{< details summary="Wanna see the raw data?" >}}
+Run the following Python code:
+
+```python
+import pandas as pd
+
+data_url = "https://max.davitt.me/sandbox/diet-v1/data.json"
+df = pd.read_json(data_url, orient="table")
+```
+
+Note: I may change the schema without warning.
+{{< /details >}}
 
 I've been overweight for much of my life and this is my first real attempt at rectifying that. I don't have a specific end goal in mind - I was mainly interested in just establishing being thoughtful about what I eat as a habit - but, in combination with my fitness "journey", I'd like to get to around 15-20% body fat (my scale said I was at ~40% when I started). I know, that's pretty ambitious, but I think I can do it. :)
 

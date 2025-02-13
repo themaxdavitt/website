@@ -59,6 +59,11 @@ new_df["trend_weight_kg"] = (new_df.trend_weight_lb * KG_PER_LB).round(2)
 new_df["deficit_kcal"] = new_df.out_kcal - new_df.in_kcal
 
 # Merge new data into old
-old_df = pd.read_json(old_path, orient="table")
-old_df = pd.concat([old_df, new_df]).drop_duplicates().sort_index()
+try:
+    old_df = pd.read_json(old_path, orient="table")
+    old_df = pd.concat([old_df, new_df]).drop_duplicates().sort_index()
+except:
+    old_df = new_df
+
+print(old_df)
 old_df.to_json(old_path, orient="table")
