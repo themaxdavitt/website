@@ -1,7 +1,7 @@
 # Adapted from the example site config from the Bear Blog theme
 
 baseURL = "https://max.davitt.me"
-theme = "hugo-bearblog"
+theme = "hugo-maxbear"
 title = "Max's Stuff"
 author = "Max Davitt"
 languageCode = "en-US"
