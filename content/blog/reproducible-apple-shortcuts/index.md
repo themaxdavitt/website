@@ -62,7 +62,7 @@ shortcuts run "Get Shortcut plist" --input-path "Set Color Filters" --output-pat
 ```
 
 {{< details summary="Here's what the output looks like if you're curious." >}}
-{{< embed source="set-color-filters.plist" >}}
+{{< embed source="set-color-filters.plist" language="xml" >}}
 {{< /details >}}
 
 I don't know its full usage but the `--input-path` argument doesn't actually read input from a path you specify for it (at least when the shortcut input is text, maybe it does for files?). Also, it doesn't default to printing to stdout (probably because some shortcuts can output binary files), so if you want that you need to pipe it out, which is why I used `tee` above. 
