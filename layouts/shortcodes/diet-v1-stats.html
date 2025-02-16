@@ -7,14 +7,14 @@
         <p>
           {{ $t := time.AsTime (index . "date") }}
           <b>Start date:</b> {{ $t.Format "2006-01-02" }}<br>
-          <b>Start weight:</b> {{ index . "scale_weight_lb" }} lbs ({{ index . "scale_weight_kg" }} kg)
+          <b>Starting scale weight:</b> {{ index . "scale_weight_lb" }} lbs ({{ index . "scale_weight_kg" }} kg)
         </p>
       {{ end }}
       {{ range last 1 . }}
         <p>
           {{ $t := time.AsTime (index . "date") }}
           <b>Latest update:</b> {{ $t.Format "2006-01-02" }}<br>
-          <b>Latest weight:</b> {{ index . "scale_weight_lb" }} lbs ({{ index . "scale_weight_kg" }} kg)
+          <b>Latest trend weight:</b> {{ index . "trend_weight_lb" }} lbs ({{ index . "trend_weight_kg" }} kg)
         </p>
       {{ end }}
     {{ end }}
